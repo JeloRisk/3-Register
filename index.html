@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="form">
+            <div class="imgBx">
+                <img src="img1.jpeg">
+            </div>
+            <div class="contentBx">
+                <fieldset>
+                    <legend>MMSU ESport</legend>
+                    <form id="formvalues" class="formValues">
+                        <input type="text" placeholder="Full name" id="fullName" autofocus /> <br />
+                        <input type="email" placeholder="eMail" id="eMail" autofocus /> <br />
+                        <input type="number" placeholder="ID" id="id" /> <br />
+                        <!-- <input type="text" placeholder="IGN" id="ign" /> <br /> -->
+
+
+                        <div class="role">
+                            <select name="firstRole" id="firstRole" class="firstRole">
+                                <option value="role 1">Role 1</option>
+                                <option value="fighter">Fighter</option>
+                                <option value="tank">Tank</option>
+                                <option value="assassin">Assassin</option>
+                                <option value="mage">Mage</option>
+                                <option value="support">Support</option>
+                                <option value="marksman">Marksman</option>
+                            </select>
+                            <select name="secondRole" id="secondRole" class="secondRole">
+                                <option value="role 2">Role 2</option>
+                                <option value="fighter">Fighter</option>
+                                <option value="tank">Tank</option>
+                                <option value="assassin">Assassin</option>
+                                <option value="mage">Mage</option>
+                                <option value="support">Support</option>
+                                <option value="marksman">Marksman</option>
+                            </select>
+                        </div>
+                        <br><br>
+
+
+                        <input type="submit" value="Submit" name="">
+
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="form">
+            <div class="contentBx">
+                <fieldset class="log">
+                    <legend>Welcome log</legend>
+                    <div id="line">
+                        <div id="welcomeLog">
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <!-- <fieldset id="employee-data" class="employee-data">
+            <legend>Employee's</legend>
+            <h2>Your Employee:</h2>
+            <div id="dummy-employee">
+            </div>
+            <div id="list-container">
+                <div id="list-employee">
+                </div>
+                <div id="delete-btn"></div>
+            </div>
+        </fieldset> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
